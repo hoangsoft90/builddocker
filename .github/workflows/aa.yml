@@ -42,7 +42,7 @@ jobs:
           context: .
           # Note: tags has to be all lower-case
           tags: |
-            ghcr.io/clickgumshoe/demoarm1:latest
+            ghcr.io/hoangsoft90/demoarm1:latest
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
 
